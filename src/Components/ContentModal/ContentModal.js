@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
-import { img_500, unavailable, unavailableLandscape } from "../config/config";
+import { img_500, unavailable } from "../config/config";
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import './ContentModal.css';
 import Carousel from "./Carousel/Carousel";
