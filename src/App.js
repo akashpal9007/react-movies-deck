@@ -8,6 +8,7 @@ import Movies from "./Components/Pages/Movies"
 import TVSeries from "./Components/Pages/TVSeries"
 import Search from "./Components/Pages/Search"
 import Error404 from "./Components/Pages/Error404";
+import BottomNav from "./Components/BottomNav/BottomNav";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </Routes>
       </Container>
     </div>
+    <BottomNav />
     </BrowserRouter>
   );
 }

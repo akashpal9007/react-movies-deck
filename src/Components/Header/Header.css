@@ -19,6 +19,8 @@
     background-color: #39445a;
     cursor: pointer;
     position: fixed;
+    padding-top: 7px;
+    padding-bottom: 7px;
     text-transform: uppercase;
     font-family: sans-serif;
     width: 100%;
@@ -33,5 +35,17 @@
     .header{
         padding-top: 5px;
         font-size: 6.4vw;
+    }
+    .navbar .movies{
+        display: none;
+    }
+    .navbar .trending{
+        display: none;
+    }
+    .navbar .tvseries{
+        display: none;
+    }
+    .navbar .search{
+        display: none;
     }
 }
