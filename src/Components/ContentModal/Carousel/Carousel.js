@@ -44,7 +44,7 @@ const Carousel = ({id, media_type}) => {
 
   useEffect(() => {
     fetchCredits();
-  }, [credits]);
+  });
 
   return (
     <AliceCarousel autoPlay infinite disableDotsControls disableButtonsControls responsive={responsive} mouseTracking items={items} />
