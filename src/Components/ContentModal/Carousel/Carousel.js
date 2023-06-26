@@ -44,9 +44,7 @@ const Carousel = ({id, media_type}) => {
 
   useEffect(() => {
     fetchCredits();
-    // eslint-disable-next-line
-
-  }, []);
+  }, [credits]);
 
   return (
     <AliceCarousel autoPlay infinite disableDotsControls disableButtonsControls responsive={responsive} mouseTracking items={items} />
