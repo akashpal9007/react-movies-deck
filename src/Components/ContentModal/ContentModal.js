@@ -87,12 +87,13 @@ export default function ContentModal({children, media_type, id}) {
                   <i className="tagline">{content.tagline}</i>
                 )}
                 <span className="ContentModal__description">
-                  {content.overview}
+                  {/* {content.overview} */}
+                  <iframe frameBorder={0} width={"100%"} height={"100%"} allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"} allowFullScreen src={`https://www.youtube.com/embed/${video}`} title="Trailer"></iframe>
                 </span>
                 <div>
                   <Carousel media_type={media_type} id={id} />
                 </div>
-                <Button
+                {/* <Button
                   variant="contained"
                   startIcon={<YouTubeIcon />}
                   color="secondary"
@@ -100,7 +101,7 @@ export default function ContentModal({children, media_type, id}) {
                   href={`https://www.youtube.com/watch?v=${video}`}
                 >
                   Watch the Trailer
-                </Button>
+                </Button> */}
               </div>
             </div>
           </Box>

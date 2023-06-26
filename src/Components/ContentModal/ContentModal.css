@@ -44,7 +44,7 @@
 
 .ContentModal__title {
   height: 12%;
-  font-size: 5vw;
+  font-size: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,10 +52,12 @@
 
 .ContentModal__description {
   display: flex;
-  height: 40%;
+  justify-content: center;
+  /* width: 80%; */
+  height: 50%;
   overflow-y: scroll;
-  padding: 15px;
-  border-radius: 20px;
+  /* padding: 15px; */
+  border-radius: 10px;
   scrollbar-width: thin; /* Firefox */
   box-shadow: inset 0 0 5px #000000;
   text-align: justify;
@@ -84,7 +86,7 @@
     height: 100%;
   }
   .ContentModal__title {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
   .ContentModal__description {
     font-size: 22px;
